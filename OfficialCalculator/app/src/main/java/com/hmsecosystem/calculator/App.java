@@ -24,8 +24,7 @@ public class App extends MultiDexApplication {
         resources = getResources();
         final String AF_DEV_KEY = resources.getString(R.string.AF_DEV_KEY);
 
-        AppsFlyerLib.getInstance().init(AF_DEV_KEY,null,this);
-        AppsFlyerLib.getInstance().start(this);
+    
 
 //        set single Dashboard third party store name here:
 //        The value set here appears in AppsFlyer raw data install_app_store field and in
